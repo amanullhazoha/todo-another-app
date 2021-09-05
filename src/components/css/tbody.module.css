@@ -1,0 +1,22 @@
+td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+tbody tr:nth-of-type(odd) {
+  background: #f2f2f2;
+}
+
+tbody tr:hover {
+  background: #cacdd1;
+}
+
+.btnGroup button {
+  font-size: 13px;
+}
+
+.btnGroup .delete {
+  background: #dc3545;
+  margin-left: 7px;
+  margin-right: 7px;
+}

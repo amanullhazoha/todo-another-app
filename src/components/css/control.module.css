@@ -1,0 +1,16 @@
+.control {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.control h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  color: #191a1e;
+  margin-bottom: 15px;
+}
+
+.control .addBtn {
+  background: #007bff;
+}
