@@ -1,0 +1,29 @@
+.page h1 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  background: #343a40;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.details {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 15px;
+}
+
+.details p {
+  font-size: 18px;
+}
+
+.details p span {
+  font-weight: bold;
+}
+
+.deleteBtn button {
+  width: 100%;
+  background: #dc3545;
+}

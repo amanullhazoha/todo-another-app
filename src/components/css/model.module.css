@@ -1,0 +1,34 @@
+.modelOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model {
+  position: relative;
+  background: #fff;
+  width: 400px;
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.closeBtn {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 18px;
+  right: 5px;
+  top: 5px;
+  background: #f3f4f6;
+  color: #000;
+}

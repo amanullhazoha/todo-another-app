@@ -19,6 +19,15 @@ th {
   padding-bottom: 7px;
 }
 
+input {
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
 button {
   padding: 5px 15px;
   border: none;

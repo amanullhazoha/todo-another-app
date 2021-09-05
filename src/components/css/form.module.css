@@ -1,0 +1,10 @@
+.heading {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: #4e4e4e;
+}
+
+.submitBtn button {
+  width: 100%;
+}

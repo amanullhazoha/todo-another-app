@@ -1,21 +1,28 @@
 import Button from './Button';
 import classes from './css/tbody.module.css';
 
-const Tbody = () => (
+const Tbody = ({ todos, handelUpdate, handelDelete, handelVeiw }) => (
     <tbody>
-        <tr>
-            <td>RamesH</td>
-            <td>Fadatare</td>
-            <td>ram@gmail.com</td>
-            <td>
-                <div className={classes.btnGroup}>
-                    <Button type="button" text="Update" />
-                    <Button type="button" className={classes.delete} text="Delete" />
+        {todos.map((todo) => (
+            <tr key={todo.id}>
+                <td>{todo.firstName}</td>
+                <td>{todo.lastName}</td>
+                <td>{todo.email}</td>
+                <td>
+                    <div className={classes.btnGroup}>
+                        <Button type="button" text="Update" onClick={() => handelUpdate(todo.id)} />
+                        <Button
+                            type="button"
+                            className={classes.delete}
+                            text="Delete"
+                            onClick={() => handelDelete(todo.id)}
+                        />
 
-                    <Button type="button" text="View" />
-                </div>
-            </td>
-        </tr>
+                        <Button type="button" text="Veiw" onClick={() => handelVeiw(todo.id)} />
+                    </div>
+                </td>
+            </tr>
+        ))}
     </tbody>
 );
 
